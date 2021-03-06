@@ -1,0 +1,24 @@
+{
+  "name": "Test-Driven-Katas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha wrap.spec.js",
+    "test:dev": "npm test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CraigFerreira/Test-Driven-Katas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CraigFerreira/Test-Driven-Katas/issues"
+  },
+  "homepage": "https://github.com/CraigFerreira/Test-Driven-Katas#readme",
+  "devDependencies": {
+    "chai": "^4.3.3"
+  }
+}
